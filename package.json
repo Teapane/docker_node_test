@@ -1,0 +1,24 @@
+{
+  "name": "docker_node_test",
+  "version": "1.0.0",
+  "description": "node and docker test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teapane/docker_node_test.git"
+  },
+  "author": "teapane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teapane/docker_node_test/issues"
+  },
+  "homepage": "https://github.com/Teapane/docker_node_test#readme",
+
+  "dependencies": {
+    "express": "3.2.4"
+  },
+}
