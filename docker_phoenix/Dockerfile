@@ -4,8 +4,6 @@ RUN apt-get update && \
       apt-get autoclean
 RUN mkdir -p /app
 ARG VERSION=0.0.1
-COPY rel/hello_semaphore/releases/${VERSION}/hello_semaphore.tar.gz
-  /app/hello_semaphore.tar.gz
 COPY scripts/wait-for-postgres.sh /app/wait-for-postgres.sh
 WORKDIR /app
 RUN tar xvzf hello_semaphore.tar.gz
